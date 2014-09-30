@@ -2,16 +2,19 @@ development:
   adapter: postgresql
   encoding: unicode
   database: ember-crm_development
+  username: yunixon
   pool: 5
 
 test:
   adapter: postgresql
   encoding: unicode
   database: ember-crm_test
+  username: yunixon
   pool: 5
 
 production:
   adapter: postgresql
   encoding: unicode
   database: ember-crm_production
+  username: yunixon
   pool: 5
